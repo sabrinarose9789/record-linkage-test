@@ -15,10 +15,11 @@ research results based on the strictness of match logic. The rules used by the
 deterministic matching algorithm are based on background knowledge and extensive
 testing on IL and Chicago administrative data.
 
-More details about the algorith can be found in `Can we link Sharepoint? <https://world.openfoodfacts.org/>`_
+More details about the algorithm can be found in `Can we link Sharepoint? <https://world.openfoodfacts.org/>`_
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
+
 .. note::
 
    This project is under active development.
@@ -28,5 +29,6 @@ Contents
 
 .. toctree::
 
+   release
    usage
    api
