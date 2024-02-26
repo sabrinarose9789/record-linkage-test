@@ -12,6 +12,7 @@ to be added to the user's `PYTHONPATH`. This can be done by adding the following
 line to `.bashrc:
 
 .. code-block:: console
+
     (.venv) $ export PYTHONPATH='<root_directory>/record-linkage/shared'
 
 
@@ -36,12 +37,14 @@ For any dataset that is in csv format and already processed to be combined with 
 From the top level of the record linkage repository, run:
 
 .. code-block:: console
+
     (.venv) python preprocessing/run_preprocess.py
 
 If using files that can be used as is and need to be imported to a database,
 you can use the following script instead:
 
 .. code-block:: console
+
     (.venv) python ./preprocessing/import_prepped_data.py
 
 Run a match from beginning to end
@@ -50,6 +53,7 @@ Run a match from beginning to end
 Run the following at the root of this directory:
 
 .. code-block:: console
+
     (.venv) python run_match.py [-c <path to config.py>]
 
 A path to a copy of the config.py can be defined here if the configuration file
@@ -74,4 +78,5 @@ Run the following script to print summary statistics about the match
 (currently not applicable to M:M matches).
 
 .. code-block:: console
+
     (.venv) python ./match_rates/get_match_rates.py
