@@ -1,4 +1,4 @@
-Welcome to Record Linkage (name pending)'s documentation!
+Welcome to Beam's documentation!
 ===================================
 
 This is a deterministic record linkage tool developed by the Chapin Hall ETL team
@@ -31,4 +31,4 @@ Contents
 
    release
    usage
-   api
+   structure
