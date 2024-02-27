@@ -6,9 +6,9 @@ Set up
  
 Clone this Git repository.
 
-Add the subdirectory `/shared` to your `.bashrc` file located in your root directory. 
+Add the subdirectory ``/shared`` to your ``.bashrc`` file located in your root directory. 
 This directory contains code used by other modules in this repository and needs 
-to be added to the user's `PYTHONPATH`. This can be done by adding the following 
+to be added to the user's ``PYTHONPATH``. This can be done by adding the following 
 line to `.bashrc`:
 
 .. code-block:: console
@@ -24,8 +24,10 @@ Define match parameters
 
 Edit ``config.py`` to define parameters of the input data, the match, and output.
 
-** Note:** if using the preprocessing scripts, please define the variable mapping 
-for each dataset based on the preprocessed variable names.
+.. note::
+
+    If using the preprocessing scripts, please define the variable mapping for 
+    each dataset based on the preprocessed variable names.
 
 Preprocess data
 ---------------
@@ -59,7 +61,7 @@ Run the following at the root of this directory:
 A path to a copy of the config.py can be defined here if the configuration file
 is saved in a different directory with a different file name than the root. 
 Note that this script can run for some time, so consider using a terminal multiplexer
-(such as `tmux <https://github.com/tmux/tmux/wiki>`).
+(such as `tmux <https://github.com/tmux/tmux/wiki/>`).
 
 Run a match by stage
 --------------------
